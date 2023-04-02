@@ -1,0 +1,8 @@
+create database dblab8;
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0003 seconds.)
+use dblab8;
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0005 seconds.)
+CREATE TABLE Users ( id int NOT NULL AUTO_INCREMENT, FirstName varchar(255) NOT NULL,LastName varchar(255)
+NOT NULL, email varchar(50) NOT NULL, pass varchar(50) NOT NULL, PRIMARY KEY (id) );
